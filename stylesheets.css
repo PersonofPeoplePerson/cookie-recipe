@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Prospectus Pro';
+    src: url('ProspectusProXLDEMO-SemiBold.woff') format('woff');
+    font-weight: 600; 
+}
+
+@font-face {
+    font-family: 'Mission Gothic';
+    src: url('Mission Gothic Regular.otf') format('opentype'); 
+    font-weight: normal; 
+}
+.cookie-border {
+    border-width: 30px; 
+    border-style: solid; 
+    border-image: url('cookie-border.png') 30 repeat; 
+    padding: 20px; 
+    background: burlywood; 
+    box-sizing: border-box; 
+}
+
+.cookie-border h1 {
+    margin: 0; 
+}
+
+.cookie-border h1 span {
+        border: 5px solid burlywood;
+        padding: 10px;
+        background: white; 
+    }
+body {
+    background: rgba(245, 245, 245, 0.89); 
+}
+h2, h3, h6 {
+    font-size: 25px; 
+}
+h4,h5 {
+    font-size:  18px; 
+}
+.metric, .imperial {
+    font-family: 'Mission Gothic', sans-serif !important;
+}
+#ingredientsList li, #ingredientsList li .metric, #ingredientsList li .imperial {
+    font-family: 'Mission Gothic', sans-serif;
+}
+.metric {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+li:hover .metric {
+    display: inline;
+    background-color: burlywood; 
+}
+
+li:hover .imperial {
+    display: none;
+}
+
+.review-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.review-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #004494;
+}
